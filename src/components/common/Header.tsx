@@ -4,7 +4,7 @@ import gitHub from "../../img/github.png";
 
 import styled from "styled-components";
 import { rem } from "polished";
-import { containerLayout } from "../ui/utils/container";
+import { containerLayout } from "../ui/utils/containerLayout";
 
 const HeaderWrapper = styled.header`
   display: flex;
