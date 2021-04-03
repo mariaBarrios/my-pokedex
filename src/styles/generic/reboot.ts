@@ -60,4 +60,8 @@ export const reboot = css`
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
       monospace;
   }
+
+  a {
+    cursor: pointer;
+  }
 `;
