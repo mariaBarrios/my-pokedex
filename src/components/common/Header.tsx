@@ -31,7 +31,7 @@ export const Header: React.FC = () => {
     <HeaderWrapper role="banner">
       <MainLogo src={logo} alt="Pokemon" title="Logo de Pokemon" />
       <a
-        href="https://github.com/mariaBarrios?tab=repositories"
+        href="https://github.com/mariaBarrios/my-pokedex"
         title="Mira aquí el código fuente del proyecto"
         target="_blank"
         rel="noopener noreferrer"
