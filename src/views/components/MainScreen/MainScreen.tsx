@@ -1,6 +1,6 @@
 import React from "react";
 import { Light } from "../../../components/common/Light";
-import speaker from "../../../img/Pokemons/speaker.png";
+import speaker from "../../../img/speaker.png";
 import pikachu from "../../../img/Pokemons/pikachu.png";
 import { ScreenDisplay } from "../../../components/common/ScreenDisplay";
 import {

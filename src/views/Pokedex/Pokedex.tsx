@@ -1,25 +1,20 @@
 import React from "react";
 import {
   PokedexCase,
-  EmptyPannel,
   DisplayInfoScreen,
   MainControlPannelScreen,
   SeparatorBar,
-  BackgroundFiller1,
-  BackgroundFiller2,
 } from "./Pokedex.styles";
 import { LightsPannel } from "../components/LightsPannel/LightsPannel";
 import { MainScreen } from "../components/MainScreen/MainScreen";
 import { ScreenDisplay } from "../../components/common/ScreenDisplay";
+import { EmptyPannel } from "../components/EmptyPannel/EmptyPannel";
 
 export const Pokedex: React.FC = () => {
   return (
     <PokedexCase>
       <LightsPannel />
-      <EmptyPannel>
-        <BackgroundFiller1 />
-        <BackgroundFiller2 />
-      </EmptyPannel>
+      <EmptyPannel />
       <MainScreen />
       <MainControlPannelScreen>
         Aquí va el panel de control
