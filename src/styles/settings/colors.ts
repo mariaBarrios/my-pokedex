@@ -6,27 +6,31 @@ export const colors = css`
   --main-bg-darker-shadow: #42091c;
 
   --main-screenBg: #98cc99;
+  --main-screenBg-shadow: #98f864;
 
   --secondary-screenBg: #9d9d9d;
+  --secondary-screenBg-shadow: #434344;
 
   --button-controler: #222323;
   --arrows-controler: #434244;
 
-  --blue: #50d4f0;
-  --blue-shadow: #a2f1fb;
+  --text: #222323;
+  --border-color: #222323;
 
-  --green: #6deb3f;
+  --blue: #a2f1fb;
+  --blue-shadow: #50d4f0;
+
+  --green: #6deb5f;
   --green-shadow: #98f864;
 
-  --red: #dd3b3a;
-  --red-shadow: #e85f59;
+  --red: #e85f59;
+  --red-shadow: #dd3b3a;
 
   --yellow: #fdfd6c;
-  --yellow-Shadow: #fdf679;
+  --yellow-shadow: #fdf679;
 
   --orange: #ffd100;
   --orange-shadow: #e37206;
 
   --white: #fff;
-  --text: #222323;
 `;

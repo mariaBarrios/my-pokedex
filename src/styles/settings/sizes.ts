@@ -2,7 +2,7 @@ import { rem } from "polished";
 import { css } from "styled-components";
 
 export const sizes = css`
-  --content-max-width: 1200px;
+  --content-max-width: 900px;
   --column-gap: ${rem(24)};
   --row-gap: ${rem(16)};
 

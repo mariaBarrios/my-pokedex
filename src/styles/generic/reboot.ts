@@ -64,4 +64,9 @@ export const reboot = css`
   a {
     cursor: pointer;
   }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 `;
