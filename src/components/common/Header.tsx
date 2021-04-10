@@ -13,7 +13,7 @@ const HeaderWrapper = styled.header`
   ${containerLayout};
 
   padding-top: var(--size-base);
-  margin-bottom: var(--size-base);
+  margin-bottom: var(--size-large);
 `;
 
 const MainLogo = styled.img`
