@@ -3,23 +3,17 @@ import React from "react";
 import { GlobalStyles } from "./styles/globalStyles";
 import { Header } from "./components/common/Header";
 
-import StarLogo from "./logo.svg";
+import { Pokedex } from "./views/Pokedex/Pokedex";
+import { Container } from "./components/common/Container";
 
 const App: React.FC = () => {
   return (
     <>
       <GlobalStyles />
       <Header />
-      <main>
-        <figure>
-          <img
-            src={StarLogo}
-            alt="Estrella Pokeball"
-            title="Estrella Pokeball"
-          />
-          <figcaption>La estrella con la pokeball</figcaption>
-        </figure>
-      </main>
+      <Container>
+        <Pokedex />
+      </Container>
     </>
   );
 };
