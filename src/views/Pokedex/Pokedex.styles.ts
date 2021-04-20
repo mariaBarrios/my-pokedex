@@ -16,10 +16,3 @@ export const PokedexCase = styled.div`
 
   border-radius: 10px;
 `;
-
-export const DisplayInfoScreen = styled.div`
-  grid-area: SecondaryScreen;
-  padding: var(--size-medium) var(--size-base) 0;
-
-  height: 100%;
-`;
