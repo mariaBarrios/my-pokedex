@@ -7,9 +7,9 @@ export const PokedexCase = styled.div`
   align-items: start;
 
   grid-template-areas:
-    "LightPannel SeparatorBar EmptyPannel"
-    "MainScreen SeparatorBar SecondaryScreen"
-    "MainControlPannel SeparatorBar SecondaryControlPannel";
+    "LightPannel MiddleSection EmptyPannel"
+    "MainScreen MiddleSection SecondaryScreen"
+    "MainControlPannel MiddleSection SecondaryControlPannel";
 
   background-color: var(--main-bg);
   box-shadow: 0 0 ${rem(15)} ${rem(2)} var(--main-bg-darker-shadow) inset;
@@ -19,30 +19,7 @@ export const PokedexCase = styled.div`
 
 export const DisplayInfoScreen = styled.div`
   grid-area: SecondaryScreen;
-  padding: var(--size-medium) var(--size-base);
-  height: 100%;
-`;
-
-export const MainControlPannelScreen = styled.div`
-  grid-area: MainControlPannel;
-  padding: var(--size-base);
-  height: 100%;
-`;
-
-export const SeparatorBar = styled.div`
-  grid-area: SeparatorBar;
-  border: 3px solid var(--main-bg-darker-shadow);
+  padding: var(--size-medium) var(--size-base) 0;
 
   height: 100%;
-
-  background-image: linear-gradient(
-    90deg,
-    var(--main-bg-darker-shadow),
-    var(--main-bg-shadow),
-    var(--main-bg-darker-shadow)
-  );
-
-  border-radius: 0 12px 0 0;
-
-  opacity: 0.5;
 `;

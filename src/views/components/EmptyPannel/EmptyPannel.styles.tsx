@@ -26,7 +26,7 @@ export const EmptyPannelWrapper = styled.div`
   &:after {
     content: "";
     position: absolute;
-    left: ${rem(-1)};
+    left: 0;
     bottom: ${rem(30)};
 
     width: 47%;
@@ -53,11 +53,11 @@ export const BackgroundFiller1 = styled.div`
 
 export const BackgroundFiller2 = styled.div`
   position: absolute;
-  bottom: ${rem(-7)};
+  bottom: 0;
   left: 49%;
   background-color: var(--main-bg);
 
   width: 17%;
-  height: 16%;
+  height: 10%;
   border-radius: 0% 90% 0% 0;
 `;

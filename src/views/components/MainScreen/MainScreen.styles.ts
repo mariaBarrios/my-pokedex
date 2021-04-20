@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const MainScreenWrapper = styled.div`
   grid-area: MainScreen;
-  padding: var(--size-medium) var(--size-base);
+  padding: var(--size-medium) var(--size-base) 0;
 `;
 
 export const MainScreenContainer = styled.div`

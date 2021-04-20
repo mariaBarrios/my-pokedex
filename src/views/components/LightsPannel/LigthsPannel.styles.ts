@@ -39,16 +39,6 @@ export const LightsPannelWrapper = styled.div`
       0 10px 2px -2px var(--main-bg-shadow) inset;
 
     border-radius: 100% 0% 0% 0%;
-
-    /* right: -1px;
-    bottom: 30px;
-    width: 17%;
-    width: 46%;
-    height: 25%;
-    box-shadow: 0 4px 2px -2px var(--main-bg-darker-shadow) inset,
-      0 10px 2px -2px var(--main-bg-shadow) inset;
-    border-radius: 100% 0% 0% 0%;
-    background-color: #fff; */
   }
 `;
 
@@ -61,7 +51,8 @@ export const MainLight = styled.div`
   background-color: var(--white);
   border-radius: 100%;
 
-  box-shadow: 0 0 ${rem(10)} ${rem(3)} var(--main-bg-darker-shadow);
+  box-shadow: 0 0 ${rem(10)} ${rem(3)} var(--main-bg-darker-shadow),
+    0 0 0.9375rem 0.125rem var(--white);
 
   &:before {
     content: "";
