@@ -1,7 +1,7 @@
 import { rem } from "polished";
 import styled from "styled-components";
 
-export const MiddleSectionWrapper = styled.div`
+export const MiddleSectionWrapper = styled.section`
   position: relative;
   grid-area: MiddleSection;
 

@@ -6,7 +6,7 @@ export const lightning = keyframes`
  to { opacity: 1; }
 `;
 
-export const LightsPannelWrapper = styled.div`
+export const LightsPannelWrapper = styled.section`
   position: relative;
   display: flex;
 

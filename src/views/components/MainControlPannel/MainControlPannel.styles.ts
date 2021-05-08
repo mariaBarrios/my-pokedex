@@ -10,12 +10,12 @@ export const resetButton = css`
   outline: inherit;
 `;
 
-export const MainControlPannelWrapper = styled.div`
+export const MainControlPannelWrapper = styled.section`
   grid-area: MainControlPannel;
 
   display: flex;
   padding: var(--size-base);
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 
   height: 100%;

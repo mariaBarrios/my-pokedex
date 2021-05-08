@@ -14,6 +14,10 @@ export const colors = css`
   --button-controler: #222323;
   --arrows-controler: #434244;
 
+  --secondary-button-controler: #a2f1fb;
+  --secondary-button-controler-shadow: #50d4f0;
+  --secondary-arrow-controler: #26a1bb;
+
   --text: #222323;
   --border-color: #222323;
 

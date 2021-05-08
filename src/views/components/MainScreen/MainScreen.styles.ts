@@ -1,7 +1,7 @@
 import { rem } from "polished";
 import styled from "styled-components";
 
-export const MainScreenWrapper = styled.div`
+export const MainScreenWrapper = styled.section`
   grid-area: MainScreen;
   padding: var(--size-medium) var(--size-base) 0;
 `;
@@ -39,5 +39,3 @@ export const SpeakerWrapper = styled.div`
 
   margin-top: var(--size-mini);
 `;
-
-export const Speaker = styled.div``;
