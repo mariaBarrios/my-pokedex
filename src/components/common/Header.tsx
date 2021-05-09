@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../../img/PokemonLogo.png";
-import gitHub from "../../img/github.png";
+import logo from "../../assets/img/PokemonLogo.png";
+import gitHub from "../../assets/img/github.png";
 
 import styled from "styled-components";
 import { rem } from "polished";
