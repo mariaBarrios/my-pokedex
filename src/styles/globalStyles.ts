@@ -2,7 +2,7 @@ import { createGlobalStyle, css } from "styled-components";
 import { variables } from "./settings/variables";
 
 import { reboot } from "./generic/reboot";
-import { normalize } from "./generic/normalize";
+import { reset } from "./generic/reset";
 
 const scrollStyles = css`
   scroll-behavior: smooth;
@@ -16,14 +16,14 @@ const scrollStyles = css`
     overflow: auto;
 
     ::-webkit-scrollbar {
-      width: var(--size-tiny);
+      width: var(--size-xtiny);
       border: 0;
       background-color: transparent;
     }
 
     ::-webkit-scrollbar-thumb {
-      background-color: var(--arrows-controler);
-      border-radius: 0;
+      background-color: white;
+      border-radius: 10px 20px 20px 10px;
     }
   }
 `;
@@ -31,7 +31,7 @@ const scrollStyles = css`
 export const GlobalStyles = createGlobalStyle`
 ${variables};
 
-${normalize};
+${reset};
 
 ${reboot};
 
