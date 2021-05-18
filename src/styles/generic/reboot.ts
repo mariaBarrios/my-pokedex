@@ -1,3 +1,4 @@
+import { rem } from "polished";
 import { css } from "styled-components";
 
 /**
@@ -38,9 +39,10 @@ export const reboot = css`
       "Droid Sans", "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-size: ${rem(24)};
     line-height: 1.25;
 
-    color: var(--text-color);
+    color: var(--black);
     text-align: left; /* 3 */
 
     #root {
@@ -68,5 +70,14 @@ export const reboot = css`
   img {
     max-width: 100%;
     height: auto;
+  }
+
+  button {
+    font: inherit;
+    color: inherit;
+    border: none;
+
+    cursor: pointer;
+    outline: inherit;
   }
 `;
